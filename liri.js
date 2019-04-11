@@ -40,7 +40,25 @@ function search(operand, name) {
                         moment(response.data[i].datetime).format("dddd, MMMM Do YYYY"));
                 }
             }
-        )
+        );
+    }
+    else if (operand === "do-what-it-says") {
+        name = ""
+
+
+        fs.readFile("random.txt", "utf8", function(error, data) {
+            if (error) {
+                return console.log(error);
+            }
+            console.log(data);
+            var splitString = data.split(",");
+            console.log(splitString);
+            var command = splitString[0];
+            var name = splitString[1];
+
+
+            search(command, name);
+        });
     }
 }
 
