@@ -28,7 +28,9 @@ function search(operand, name) {
     // Movie search
     if (operand === "movie-this") {
 
-        
+        if (name === ""){
+            name = "Mr. Nobody";
+        } 
 
         axios.get("http://www.omdbapi.com?t=" + name + "&y=&plot=short&apikey=trilogy").then(
             function (response) {
@@ -85,6 +87,9 @@ function search(operand, name) {
     else if (operand === "spotify-this-song") {
 
 
+        if (name === "") {
+            name = "Smells Like Teen Spirit";
+        }
 
         spotify.search({ type: 'track', query: name }, function (err, data) {
             if (err) {
