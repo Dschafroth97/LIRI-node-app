@@ -4,8 +4,7 @@
 
  ## LIRI will always require the node and liri.js files to be called
 
-(/img/Capture0.png)
- Format: ![Alt Text](url)
+![LIRI screenshot](/img/Capture0.PNG)
 
  ## You can select from 4 available commands
 
