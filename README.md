@@ -12,14 +12,22 @@
 
 ![LIRI screenshot](/img/Capture2.PNG)
 
+![LIRI screenshot](/img/Capture7.PNG)
+
  2. "concert-this" LIRI will check the Bands In Town API for upcoming events from the artist input by the user.
 
 ![LIRI screenshot](/img/Capture3.PNG)
+
+![LIRI screenshot](/img/Capture8.PNG)
 
  3. "spotify-this-song" LIRI will check the Spotify API for the song title input by user. If no song is requested, will default to "Smells Like Teen Spirit".
 
 ![LIRI screenshot](/img/Capture1.PNG)
 
+![LIRI screenshot](/img/Capture6.PNG)
+
  4. "do-what-it-says" LIRI will read from the inclduded random.txt file and run the specified command and search query.
 
 ![LIRI screenshot](/img/Capture4.PNG)
+
+![LIRI screenshot](/img/Capture5.PNG)
